@@ -2,4 +2,34 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: rgb(153, 144, 231);
+  display: flex;
+}
+
+.card {
+  display: flex;
+    flex-direction: column;
+    background: rgb(243, 239, 231);
+    border-radius: 0.5rem;
+    padding: 1rem 1.2rem;
+    min-width: 16rem;
+    margin: 1rem 1rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    height: 15rem;
+    color: black;
+}
+
+#root {
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
